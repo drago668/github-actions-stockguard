@@ -122,7 +122,7 @@ los demás conservan su ✔.
 
 ## Paso 7 — Reglas adicionales
 
-Enlace al PR [[github.com/drago668/github-actions-stockguard/pull/1](https://github.com/drago668/github-actions-stockguard/pull/1)]
+Enlace al PR: [github.com/drago668/github-actions-stockguard/pull/1](https://github.com/drago668/github-actions-stockguard/pull/1)
 
 
 Se agregan las funciones para evaluar el sobrestock y calcular porcentajes de inventario.
@@ -223,14 +223,14 @@ def test_calcular_porcentaje_valores_negativos():
 Las pruebas también se ejecutaron en local antes del `push`, para asegurar la calidad del
 código: todas salieron exitosas. El run #8 del workflow terminó en verde en 9 segundos.
 
-![Run <span class=](docs/img/07-actions-run-8-exitoso.png)#8#8 exitoso" />
+![Run #8 exitoso](docs/img/07-actions-run-8-exitoso.png)
 
 Como último paso, una vez hecho el `push` se creó el Pull Request #1
 (`feature/alerta-sobrestock` → `main`). GitHub ejecutó las pruebas automáticamente
 (`CI StockGuard / validar-python`), salieron exitosas y sin conflictos con la rama base, por
 lo que la fusión quedó habilitada.
 
-![PR <span class=](docs/img/08-pr-1-checks-aprobados.png)
+![PR #1 con los checks aprobados](docs/img/08-pr-1-checks-aprobados.png)
 
 
 
